@@ -1,0 +1,447 @@
+{
+	// 如果您是通过uni_modules形式引入uView，可以忽略此配置
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#E1251B",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbar/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#E1251B",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbar/class",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"navigationBarBackgroundColor": "#E1251B",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbar/shopcart",
+			"style": {
+				"navigationBarTitleText": "采购车",
+				"navigationBarBackgroundColor": "#E1251B",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"subPackages": [{
+			"root": "pages/common",
+			"pages": [{
+					"path": "webview",
+					"style": {
+						"navigationBarTitleText": " ",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "demo",
+					"style": {
+						"navigationBarTitleText": "demo",
+						"navigationBarBackgroundColor": "#E1251B"
+					}
+				},
+				{
+					"path": "vuex",
+					"style": {
+						"navigationBarTitleText": "vuex",
+						"navigationBarBackgroundColor": "#E1251B"
+					}
+				}
+			]
+		}, {
+			"root": "pages/login",
+			"pages": [{
+					"path": "login",
+					"style": {
+						"navigationBarTitleText": "登录",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "register",
+					"style": {
+						"navigationBarTitleText": "注册",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "forgetpsd",
+					"style": {
+						"navigationBarTitleText": "忘记密码",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "richText",
+					"style": {
+						"navigationBarTitleText": "协议",
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/class",
+			"pages": [{
+				"path": "marketClass",
+				"style": {
+					"navigationBarTitleText": "市场分类",
+					"navigationStyle": "custom"
+				}
+			}]
+		}, {
+			"root": "pages/index",
+			"pages": [{
+					"path": "search",
+					"style": {
+						"navigationBarTitleText": "搜索",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "dayFactory",
+					"style": {
+						"navigationBarTitleText": "每日好厂",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "factoryList",
+					"style": {
+						"navigationBarTitleText": "工厂榜单",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "lifeCard",
+					"style": {
+						"navigationBarTitleText": "生活惠卡",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "newShop",
+					"style": {
+						"navigationBarTitleText": "新品上架",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "shopDetails",
+					"style": {
+						"navigationBarTitleText": "商品详情",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "createOrder",
+					"style": {
+						"navigationBarTitleText": "订单结算",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "payType",
+					"style": {
+						"navigationBarTitleText": "支付",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "createFill",
+					"style": {
+						"navigationBarTitleText": "填写信用卡信息",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "evaluateList",
+					"style": {
+						"navigationBarTitleText": "评价列表",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "html3d",
+					"style": {
+						"navigationBarTitleText": "查看",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		}, {
+			"root": "pages/mine",
+			"pages": [{
+					"path": "myMessage",
+					"style": {
+						"navigationBarTitleText": "我的消息",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "ptNotice",
+					"style": {
+						"navigationBarTitleText": "平潭公告",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "myOrder",
+					"style": {
+						"navigationBarTitleText": "我的订单",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "orderDetails",
+					"style": {
+						"navigationBarTitleText": "订单详情",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "followStore",
+					"style": {
+						"navigationBarTitleText": "关注店铺",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "myCollection",
+					"style": {
+						"navigationBarTitleText": "我的收藏",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "historyList",
+					"style": {
+						"navigationBarTitleText": "浏览记录",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "addressList",
+					"style": {
+						"navigationBarTitleText": "收货地址",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "addaddress",
+					"style": {
+						"navigationBarTitleText": "新增地址",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "batchOrder",
+					"style": {
+						"navigationBarTitleText": "批量下单",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "storeDetails",
+					"style": {
+						"navigationBarTitleText": "店铺详情",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "storeInfo",
+					"style": {
+						"navigationBarTitleText": "店铺信息",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "toEvaluate",
+					"style": {
+						"navigationBarTitleText": "去评价",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "myCoupon",
+					"style": {
+						"navigationBarTitleText": "优惠券",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "directSale",
+					"style": {
+						"navigationBarTitleText": "直销订单",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		}, {
+			"root": "pages/set",
+			"pages": [{
+					"path": "index",
+					"style": {
+						"navigationBarTitleText": " ",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "baseInfo",
+					"style": {
+						"navigationBarTitleText": " ",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "modifyPass",
+					"style": {
+						"navigationBarTitleText": "",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "about",
+					"style": {
+						"navigationBarTitleText": "",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "setPass",
+					"style": {
+						"navigationBarTitleText": "",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "selFindType",
+					"style": {
+						"navigationBarTitleText": "选择找回方式",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "verifyFind",
+					"style": {
+						"navigationBarTitleText": "验证找回",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "setPayPass",
+					"style": {
+						"navigationBarTitleText": "重设支付密码",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "realName",
+					"style": {
+						"navigationBarTitleText": "实名认证",
+						"navigationBarBackgroundColor": "#E1251B",
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		}, {
+			"root": "pages/aftersale",
+			"pages": [{
+				"path": "selAfterSaleShop",
+				"style": {
+					"navigationBarTitleText": "选择售后商品",
+					"navigationBarBackgroundColor": "#E1251B",
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "applyRefund",
+				"style": {
+					"navigationBarTitleText": "申请退款",
+					"navigationBarBackgroundColor": "#E1251B",
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "afterSaleDetails",
+				"style": {
+					"navigationBarTitleText": "售後详情",
+					"navigationBarBackgroundColor": "#E1251B",
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "consultHistory",
+				"style": {
+					"navigationBarTitleText": "协商历史",
+					"navigationBarBackgroundColor": "#E1251B",
+					"navigationStyle": "custom"
+				}
+			}]
+		}
+	],
+	"tabBar": {
+		"color": "#9C9E9C",
+		"selectedColor": "#E1251B",
+		"borderStyle": "white",
+		"backgroundColor": "#fff",
+		"list": [{
+			"pagePath": "pages/tabbar/index",
+			"iconPath": "static/tab/index.png",
+			"selectedIconPath": "static/tab/index1.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/tabbar/class",
+			"iconPath": "static/tab/class.png",
+			"selectedIconPath": "static/tab/class1.png",
+			"text": "分类"
+		}, {
+			"pagePath": "pages/tabbar/shopcart",
+			"iconPath": "static/tab/shopcart.png",
+			"selectedIconPath": "static/tab/shopcart1.png",
+			"text": "采购车"
+		}, {
+			"pagePath": "pages/tabbar/mine",
+			"iconPath": "static/tab/mine.png",
+			"selectedIconPath": "static/tab/mine1.png",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

@@ -1,0 +1,671 @@
+//  #ifdef MP-WEIXIN
+.wxpadB68 {
+  padding-bottom: 68rpx;
+}
+// #endif
+
+/*通用 */
+.clearfix:after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.width150 {
+  width: 150rpx;
+}
+
+.width686 {
+  width: 686rpx;
+}
+
+.height50 {
+  height: 50rpx;
+}
+
+.img100 {
+  width: 100%;
+  height: 100%;
+}
+
+.colorMain {
+  color: #e1251b;
+}
+
+.color1A {
+  color: #1a1a1a;
+}
+
+.color9c {
+  color: #9c9e9c;
+}
+
+.colorF6 {
+  color: #f6f6f6;
+}
+
+.colorRed {
+  color: #e1251b;
+}
+
+.colorRed1 {
+  color: #e02a23;
+}
+
+.colorblue {
+  color: #005dff;
+}
+
+.colorOrange {
+  color: #ff7700;
+}
+.coloryellow2 {
+  color: #ffda48;
+}
+
+.color333 {
+  color: #333;
+}
+
+.color666 {
+  color: #666;
+}
+
+.color6e {
+  color: #6e6e6e;
+}
+
+.color80 {
+  color: #949a8f;
+}
+
+.color999 {
+  color: #999;
+}
+
+.color2b {
+  color: #2b2b2b;
+}
+
+.colorfff {
+  color: #fff;
+}
+
+.colorfe {
+  color: #fefefe;
+}
+
+.colorFA {
+  color: #fafafa;
+}
+.color9c9e9c {
+  color: #9c9e9c;
+}
+.bgMain {
+  background-color: #e1251b;
+}
+
+.bgTBMain {
+  background: linear-gradient(0deg, #ff675e 0%, #e1251b 100%);
+}
+
+.bgLRMain {
+  background: linear-gradient(90deg, #ff675e 0%, #e1251b 100%);
+}
+
+.bgLRRed {
+  margin: 20rpx 0;
+  width: 100%;
+  height: 2rpx;
+  background: linear-gradient(245deg, #ffffff 0%, #fbfbfb 0%, #ff675e 100%);
+}
+
+.bgRed {
+  background-color: #fce8e7;
+}
+
+.bg333 {
+  background-color: #333;
+}
+
+.bg666 {
+  background-color: #666;
+}
+
+.bg999 {
+  background-color: #999;
+}
+.bgfff {
+  background-color: #fff;
+}
+
+.bgF6 {
+  background-color: #f6f6f6;
+}
+
+.borderC5 {
+  border: 2rpx solid #c5c5cc;
+}
+
+.borderMain {
+  border: 2rpx solid #e1251b;
+}
+
+.bordergreen {
+  border: 2rpx solid #77bf6d;
+}
+
+.borderRed {
+  border: 2rpx solid #ea4335;
+}
+
+.border999 {
+  border: 1rpx solid #999999;
+}
+
+.bdRadius20 {
+  border-radius: 20rpx;
+}
+
+.marAuto {
+  margin: 0 auto;
+}
+
+.marR10 {
+  margin-right: 10rpx;
+}
+
+.marR16 {
+  margin-right: 16rpx;
+}
+
+.marR20 {
+  margin-right: 20rpx;
+}
+.marB10 {
+  margin-bottom: 10rpx;
+}
+.marB20 {
+  margin-bottom: 20rpx;
+}
+
+.marB30 {
+  margin-bottom: 30rpx;
+}
+
+.marB32 {
+  margin-bottom: 32rpx;
+}
+
+.marR30 {
+  margin-right: 30rpx;
+}
+
+.marR66 {
+  margin-right: 66rpx;
+}
+
+.marL6 {
+  margin-left: 6rpx;
+}
+
+.marL10 {
+  margin-left: 10rpx;
+}
+
+.marL16 {
+  margin-left: 16rpx;
+}
+
+.marL20 {
+  margin-left: 20rpx;
+}
+
+.marL24 {
+  margin-left: 24rpx;
+}
+
+.marL30 {
+  margin-left: 30rpx;
+}
+
+.marL32 {
+  margin-left: 32rpx;
+}
+
+.marT6 {
+  margin-top: 6rpx;
+}
+
+.marT10 {
+  margin-top: 10rpx;
+}
+
+.marT12 {
+  margin-top: 12rpx;
+}
+
+.marT18 {
+  margin-top: 18rpx;
+}
+
+.marT20 {
+  margin-top: 20rpx;
+}
+
+.marT24 {
+  margin-top: 24rpx;
+}
+
+.marT26 {
+  margin-top: 26rpx;
+}
+
+.marT30 {
+  margin-top: 30rpx;
+}
+
+.marT32 {
+  margin-top: 32rpx;
+}
+
+.marT36 {
+  margin-top: 36rpx;
+}
+
+.marT40 {
+  margin-top: 40rpx;
+}
+
+.marT60 {
+  margin-top: 60rpx;
+}
+
+.pad20 {
+  padding: 20rpx;
+}
+
+.pad30 {
+  padding: 30rpx;
+}
+.padL10 {
+  padding-left: 10rpx;
+}
+.padL20 {
+  padding-left: 20rpx;
+}
+
+.padLR20 {
+  padding: 0 20rpx;
+}
+
+.padTB20 {
+  padding: 20rpx 0;
+}
+
+.padB20 {
+  padding-bottom: 20rpx;
+}
+
+.padT20 {
+  padding-top: 20rpx;
+}
+
+.fontsize20 {
+  font-size: 20rpx;
+}
+
+.fontsize22 {
+  font-size: 22rpx;
+}
+
+.fontsize24 {
+  font-size: 24rpx;
+}
+
+.fontsize26 {
+  font-size: 26rpx;
+}
+
+.fontsize28 {
+  font-size: 28rpx;
+}
+
+.fontsize30 {
+  font-size: 30rpx;
+}
+
+.fontsize32 {
+  font-size: 32rpx;
+}
+
+.fontsize34 {
+  font-size: 34rpx;
+}
+
+.fontsize36 {
+  font-size: 36rpx;
+}
+
+.fontsize40 {
+  font-size: 40rpx;
+}
+
+.fontsize44 {
+  font-size: 44rpx;
+}
+
+.fontsize50 {
+  font-size: 50rpx;
+}
+.fontsize60 {
+  font-size: 60rpx;
+}
+
+.fontW550 {
+  font-weight: 550;
+}
+.textC {
+  text-align: center;
+}
+
+.textR {
+  text-align: right;
+}
+
+.textL {
+  text-align: left;
+}
+
+.flexnone {
+  flex: none;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+.flex {
+  display: flex;
+}
+
+.flex-a {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-b {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-cb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-cc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-cs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-c {
+  display: flex;
+  align-items: center;
+}
+
+.flex-e {
+  display: flex;
+  align-items: flex-end;
+}
+
+.flex-eb {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.flex-je {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.positionRelative {
+  position: relative;
+}
+
+.fontbold {
+  font-weight: bold;
+}
+
+.minbts {
+  width: 50%;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  border-radius: 50rpx;
+}
+.fixedbts {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  line-height: 110rpx;
+  height: 110rpx;
+  text-align: center;
+}
+.btsView {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  width: calc(100% - 48rpx);
+  padding: 10rpx 24rpx;
+  box-shadow: 0rpx 0rpx 30rpx 0rpx rgba(0, 0, 0, 0.16);
+
+  .bts {
+    border-radius: 50rpx;
+    text-align: center;
+    padding: 20rpx 35rpx;
+  }
+}
+.shopshadow {
+  box-shadow: 0rpx 12rpx 36rpx 0rpx rgba(153, 153, 153, 0.21);
+}
+
+.zIndex999 {
+  z-index: 999;
+}
+
+.imglang {
+  margin-left: 20rpx;
+  width: 44rpx;
+  height: 44rpx;
+}
+
+.navbarZx {
+  position: relative;
+  z-index: 1000;
+}
+
+.tuijianView {
+  image {
+    width: 25rpx;
+    height: 20rpx;
+  }
+  view {
+    margin: 0 20rpx;
+    font-weight: bold;
+    font-size: 32rpx;
+  }
+}
+
+.fixed-top {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
+.marT188 {
+  margin-top: 188rpx;
+}
+
+.marT100 {
+  margin-top: 100rpx;
+}
+
+.img30 {
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.img36 {
+  width: 36rpx;
+  height: 36rpx;
+}
+
+.img44 {
+  width: 44rpx;
+  height: 44rpx;
+}
+
+.img60 {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.img100 {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.img180 {
+  width: 180rpx;
+  height: 180rpx;
+}
+
+.iconnumberbox {
+  position: relative;
+  top: 10rpx;
+}
+
+.guanzhubts {
+  border-radius: 50rpx;
+  text-align: center;
+  width: 122rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+
+  .imgguanzhu {
+    width: 24rpx;
+    height: 24rpx;
+    margin-right: 4rpx;
+  }
+}
+
+.bts1 {
+  border-radius: 50rpx;
+  padding: 15rpx 35rpx;
+  display: inline-block;
+  text-align: center;
+}
+
+
+
+$list-item-delay: 0.25s;
+$list-item-duration: 0.5s;
+$len10: 10;
+
+.animationX10 {
+  opacity: 0;
+  animation: effects 0.2s ease-in-out 0.1s forwards;
+
+  @keyframes effects {
+    0% {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @for $i from 1 through $len10 {
+    // 循环生成每个列表项的样式
+    &:nth-child(#{$i}) {
+      animation-delay: 0.1s * $i; // 设置延迟时间
+    }
+  }
+}
+
+.animationY10 {
+  opacity: 0;
+  animation: effects1 0.5s ease-in-out 0.25s forwards;
+
+  @keyframes effects1 {
+    0% {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @for $i from 1 through $len10 {
+    // 循环生成每个列表项的样式
+    &:nth-child(#{$i}) {
+      animation-delay: 0.25s * $i; // 设置延迟时间
+    }
+  }
+}
+
+.animationY20 {
+  opacity: 0;
+  animation: effects2 0.35s ease-in-out 0.2s forwards;
+
+  @keyframes effects2 {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @for $i from 1 through 20 {
+    // 循环生成每个列表项的样式
+    &:nth-child(#{$i}) {
+      animation-delay: 0.2s * $i; // 设置延迟时间
+    }
+  }
+}
