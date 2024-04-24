@@ -73,7 +73,7 @@ CLOSE_AF("售后关闭,本次维权关闭","CLOSE","RED","AfterSalesStatusEnum_C
 - `types` 类型
 
 线上手机端演示地址 h5:  http://goldlink.nsd2020.com/h5/#/
-线上后台演示地址   	   http://goldlink.nsd2020.com/ms/#/login
+线上后台演示地址   	   http://goldlink.nsd2020.com/ms/#/login 
 
 
 
